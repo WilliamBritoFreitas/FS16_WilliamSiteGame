@@ -17,22 +17,23 @@
 }
 
 .container {
-   width: 1400px;
+   width: center;
    display: flex;
    justify-content: left;
+   margin: 0 auto;
 
 }
 
 body{
-    background-color: blueviolet;
+    background-color: rgb(99, 165, 226);
 }
 
 header{
     background-color: rgb(0, 0, 143);
     height: 50px;
     width: 1290px;
-    display: flex;  
- 
+    display: flex;
+    
 
 }
 .MainMenu {
@@ -40,10 +41,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
- 
-   
+    font-size: 18px;
+  
    
 }
+
 
 .margem{
 margin-right: 10px;
@@ -52,7 +54,7 @@ margin-right: 10px;
 
 .caixa_entrada{
  
-   margin-left: 50px;
+   margin-left: 30px;
    margin-right: 10px;
    display: flex;
    align-items: center;
@@ -60,14 +62,73 @@ margin-right: 10px;
   
    
 }
-.MainMenuItem {
-  
-     
+
+
+.MainMenuContainer {
+      
     display: flex;
-    width: 700px;
-    justify-content:space-around;
+    width: 600px;
+    margin-left: 0px;
+    
+}
+
+.ItensMainMenu {
+      
+    display: flex;
+    width: 600px;
+   
+   
+    /* justify-items: space-between; */
+    
     color: #ffffff; 
     
+    font-size:18px;
+    text-decoration: none;
+}
+
+ .ItensMainMenu a {
+
+    width: 100px;
+    justify-items: space-between;
+    color: #ffffff; 
+    text-decoration: none;
+     
+    
+} 
+
+.ItensMainMenu a:hover {
+
+    width: 100px;
+    
+    justify-items: space-between;
+    font;
+    font-weight: 600;
+    text-decoration: none;
+     
+    
+} 
+
+
+.MainMenuLog{
+      
+    display: flex;
+    width: 150px;
+    margin-left:50px;
+    justify-content:space-around;
+    color: #ffffff; 
+    /* text-transform: uppercase; */
+    font-size:18px;
+    
+}
+
+.MainMenuLog a{
+      
+    text-decoration: none;
    
+}
+
+.MainMenuLog a:hover{
+      
+    font-weight: 600;
    
 }
